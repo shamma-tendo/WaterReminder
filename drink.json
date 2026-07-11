@@ -1,0 +1,25 @@
+{
+  "name": "hydration-buddy-ts",
+  "version": "0.1.0",
+  "description": "Stay hydrated while coding - TypeScript CLI version",
+  "main": "dist/hydration_buddy.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/hydration_buddy.js",
+    "dev": "ts-node hydration_buddy.ts"
+  },
+  "keywords": [
+    "hydration",
+    "reminder",
+    "productivity",
+    "cli"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.2",
+    "ts-node": "^10.9.1"
+  },
+  "dependencies": {}
+}
