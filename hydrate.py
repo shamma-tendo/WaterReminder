@@ -13,9 +13,9 @@ from datetime import datetime
 class HydrationBuddy:
     def __init__(self, root):
         self.root = root
-        self.root.withdraw()  # Hide main window initially
+        self.root.withdraw()
         
-        # Settings
+   
         self.interval_minutes = 30
         self.drinks_count = 0
         self.time_left = self.interval_minutes
@@ -35,10 +35,10 @@ class HydrationBuddy:
         self.root.geometry("500x400")
         self.root.configure(bg='#f0f0f0')
         
-        # Make window stay on top
+  
         self.root.attributes('-topmost', True)
         
-        # Header
+
         header = tk.Frame(self.root, bg='#667eea', height=80)
         header.pack(fill=tk.X)
         
@@ -90,7 +90,7 @@ class HydrationBuddy:
             )
             btn.pack(side=tk.LEFT, padx=5)
             
-            # Store reference for updating active state
+            #  reference for updating active state
             if minutes == 30:
                 self.active_btn = btn
             setattr(self, f'btn_{minutes}', btn)
