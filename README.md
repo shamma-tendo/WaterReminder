@@ -1,2 +1,2 @@
 # WaterReminder
-you code too much and forget to drink, huuhh? a simple reminder right up here
+mini you walking up to your screen to remind you to hydrate
