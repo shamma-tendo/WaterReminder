@@ -25,7 +25,7 @@ typedef struct {
     int show_menu;
 } HydrationState;
 
-// Walking animation frames
+// Walking animation frames of the app
 const char *walking_frames[] = {"🚶", "🧘", "🏃", "🧘"};
 int frame_count = 4;
 
@@ -36,12 +36,12 @@ void clear_screen() {
 void print_header() {
     printf("%s%s", BG_BLUE, RESET);
     printf("\n");
-    printf("%s    💧 Hydration Buddy - Stay hydrated while you code%s\n", BOLD BLUE, RESET);
+    printf("%s    💧 Hydration Buddy - Stay hydrated while you code!%s\n", BOLD BLUE, RESET);
     printf("\n");
 }
 
 void print_separator() {
-    printf("%s━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━%s\n", CYAN, RESET);
+    printf("%s━━━━━━━━━━━━━━━━━━━━%s\n", CYAN, RESET);
 }
 
 void print_main_menu(HydrationState *state) {
